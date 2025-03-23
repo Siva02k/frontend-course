@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    flex-direction: column;  
+    background-color: #e6e6e6;
+    padding: 20px 40px 20px 40px;
+    flex-wrap: wrap;
+}
+.container_top{
+    display: flex;
+    gap: 20px;
+}
+.top_heading_right{
+    margin-left:0px ;
+    display: flex;
+    gap: 20px;
+}
+.nav_top_little{
+ padding: 0px 30px 0px 0px ;
+}
+.nav_top{
+    margin: 0px 0px 0px 0px ;
+}
+.top1{
+    margin-top: 25px;
+}
+.nav_top_right{
+    display: flex;
+    flex-direction: row;
+    margin-left:30%;
+    flex-wrap: wrap;
+
+    margin:0px 10px 0ppx 0px ;
+
+}
+.nav_top_right1{
+    margin:20px 10px 0px 0px ;
+  width: 70px;
+  border: 2px solid gainsboro;
+  padding: 8px 10px 22px 9px;;
+  height: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.top_right{
+    width: 100px;
+}
+.nav_top_right1:hover{
+  background-color: rgb(5, 63, 43);
+    color: aliceblue;
+}
+.containerP{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.container_right{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+.heding{
+    width: 300px;
+    padding-left: 30px;
+}
+.subheading{
+    width: 400px;
+    padding-left:30px ;
+}
+.top_account_btn{
+    padding: 20px;
+}
+.account_btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+  background-color: rgb(5, 63, 43);
+    color: aliceblue;
+    font-weight: bold;
+}
+.container_right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box{
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(security.jpg);
+    background-size: contain;
+    object-fit: cover;
+
+}
+.inline_box_left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.inline_box_left1{
+    color: aliceblue;
+    margin: 100px 0px 0px 0px ;
+}
+.inline_box_left2{
+    color: aliceblue;
+    width: 250px;
+}

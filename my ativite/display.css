@@ -1,0 +1,374 @@
+.container{
+    max-width: 900px;
+    height: 900px;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.boxA{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(236, 193, 18);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+}
+.boxB{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.boxC{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 193, 18);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.boxD{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.pen1{
+    width: 40px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.pen2{
+    width: 40px;
+    height: 50px;
+    background-color: aqua;
+}
+.book1{
+    width: 40px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.book2{
+    width: 40px;
+    height: 50px;
+    background-color: aqua;
+}
+.fan1{
+    width: 40px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.fan2{
+    width: 40px;
+    height: 50px;
+    background-color: aqua;
+}
+.table1{
+    width: 40px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.table2{
+    width: 40px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.container1{
+    width: 900px;
+    height: 900px;
+    background-color: chocolate;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+.classA{
+    width: 450px;
+    height: 750px;
+    background-color: burlywood;
+    margin:20px 0px 0px 10px ;
+     /* flex-wrap: wrap; */
+}
+.classB{
+    width: 400px;
+    height: 750px;
+    background-color: burlywood;
+    margin:20px 0px 0px 10px ;
+     /* flex-wrap: wrap; */
+}
+.top1{
+    width:400px ;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 20px 0px 0px 20px;
+    
+}
+
+.name1{
+    width:300px ;
+    height: 50px;
+    background-color: cadetblue;
+    margin:40px 0px 0px 50px ;
+}
+.name2{
+    width:300px ;
+    height: 50px;
+    background-color: rgb(28, 57, 58);
+    margin:40px 0px 0px 50px ;
+}
+.name3{
+    width:300px ;
+    height: 50px;
+    background-color: cadetblue;
+    margin:40px 0px 0px 50px ;
+}
+.name4{
+    width:300px ;
+    height: 50px;
+    background-color: rgb(28, 57, 58);
+    margin:40px 0px 0px 50px ;
+}
+.name5{
+    width:300px ;
+    height: 50px;
+    background-color: cadetblue;
+    margin:50px 0px 0px 50px ;
+}
+.name6{
+    width:300px ;
+    height: 50px;
+    background-color: rgb(28, 57, 58);
+    margin:40px 0px 0px 50px ;
+}
+.name7{
+    display: flex;
+    margin:40px 0px 0px 50px ;
+    gap: 20px;
+}
+.name8{
+    background-color: cadetblue;
+    width: 50px;
+    height: 50px;
+    gap: 20px;
+}
+.name9{
+    background-color:  rgb(28, 57, 58);
+    width: 50px;
+    height: 50px;
+    gap: 20px;
+}
+
+
+
+.top2{
+    width:350px ;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 20px 0px 0px 20px;
+    
+}
+.king1{
+    width:300px ;
+    height: 50px;
+    background-color: cadetblue;
+    margin:40px 0px 0px 50px ;
+}
+.king2{
+    width:300px ;
+    height: 50px;
+    background-color: rgb(28, 57, 58);
+    margin:40px 0px 0px 50px ;
+}
+.king3{
+    width:300px ;
+    height: 50px;
+    background-color: cadetblue;
+    margin:40px 0px 0px 50px ;
+}
+.king4{
+    width:300px ;
+    height: 50px;
+    background-color: rgb(28, 57, 58);
+    margin:40px 0px 0px 50px ;
+}
+.king5{
+    width:300px ;
+    height: 50px;
+    background-color: cadetblue;
+    margin:50px 0px 0px 50px ;
+}
+.king6{
+    width:300px ;
+    height: 50px;
+    background-color: rgb(28, 57, 58);
+    margin:40px 0px 0px 50px ;
+}
+.king7{
+    height: 50px;
+    margin:40px 0px 0px 50px ;
+    display: flex;
+   gap: 20px;
+    
+}
+.king8{
+    width: 50px;
+    height: 50px;
+     background-color: rgb(28, 57, 58);
+   column-gap: 600px;
+}
+.king9{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+  column-gap: 600px;
+}
+
+.parentContainer{
+    width: 300px;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.child{
+    width: 50px;
+    height:50px ;
+    background-color: black;
+}  
+.mother{
+    width: 800px;
+    height: 900px;
+    background-color: tomato;
+    flex-wrap: wrap;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.class1{
+    width: 250px;
+    height: 600px;
+    background-color: aqua;
+}
+.class2{
+    /* width: 450px; */
+    height: 600px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name11{
+    width: 350px;
+    height:150px;
+    background-color: chocolate;
+}
+.name12{
+    width: 350px;
+    height:150px;
+    /* background-color:brown; */
+    display: flex;
+    justify-content: space-between;
+}
+.bill1{
+    width: 60px;
+    height:80px;
+    background-color: red;
+}
+.bill2{
+    width: 60px;
+    height:80px;
+    background-color: black;
+}
+.top3{
+    /* width: 900px; */
+    height: 900px;
+     flex-wrap: wrap;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 100px;
+}
+.sale1{
+    width: 400px;
+height: 400px;
+display: flex;
+flex-direction: row;
+background-color: black;
+justify-content: space-around;
+align-items: stretch;
+}
+.sale2{
+    width: 400px;
+ height: 400px;
+ display: flex;
+ flex-direction: row;
+ background-color: blue;
+ justify-content: space-around;
+ align-items: stretch;
+}
+.good1{
+    width: 300px;
+    height: 100px;
+    background-color: aliceblue;
+     margin-top:auto ;
+    margin-bottom: 20px;
+}
+.good2{
+    width: 300px;
+    height: 100px;
+    background-color:red;
+    margin-top:auto ;
+    margin-bottom: 20px;
+}
+.yogi{
+    height: 900px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 150px;
+
+}
+.bottle1{
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bottle2{
+    background-color: rgb(184, 131, 63);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+.cup1{
+   height: 50px;
+   width: 200px;
+   background-color: beige;
+   margin:20px;
+}
+.cup2{
+    height: 50px;
+    width: 200px;
+    background-color: beige;
+   margin:20px;
+}

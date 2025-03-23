@@ -1,0 +1,11 @@
+/* minmax */
+ .box12{
+    background-color: cadetblue;
+    margin: 10px;
+    max-width: 450px; 
+ }
+/* .box123{
+    background-color: cadetblue;
+    margin: 10px;
+    min-width: 450px;
+} */

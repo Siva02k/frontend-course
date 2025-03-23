@@ -1,0 +1,29 @@
+.container {
+  border: 2px solid red;
+  padding: 20px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 425px) {
+  .box {
+    background-color: red;
+  }
+}
+.containerA {
+  border: 2px solid blue;
+  padding: 30px;
+}
+.border_box {
+  width: 150px;
+  height: 100px;
+  background-color: blueviolet;
+}
+@media screen and (max-width:768px) {
+  .border_box {
+    background-color: burlywood;
+  }
+}

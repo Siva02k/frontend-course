@@ -1,0 +1,19 @@
+.container{
+    background-color: aqua;
+}
+.box{
+    color: aliceblue;
+    /* width: 27px; */
+}
+.boxA{
+    max-width: 800px;
+    min-width: 300px;
+    min-height: 200px;
+    background-color: brown;
+}
+.boxB{
+    max-width: 800px;
+    min-width: 300px;
+    max-height: 400px; 
+    background-color: chocolate;
+}

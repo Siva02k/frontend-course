@@ -1,0 +1,254 @@
+.contrainer {
+  display: flex;
+  background-color: gainsboro;
+  padding: 30px;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  gap: 50px;
+}
+
+.contrainer_left {
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  /* margin-left: 30px; */
+  border-radius: 15px;
+  width: 200px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.left_partent {
+  display: flex;
+  justify-content: space-between;
+}
+.inline_left {
+  /* padding: 10px; */
+}
+.icon_img {
+  max-width: 50px;
+  border-radius: 100px;
+}
+.cross_line {
+  width: 100%;
+  margin: 40px 0px 20px 0px;
+}
+.icon_name {
+  display: flex;
+  flex-direction: column;
+}
+.icon_image_info {
+  margin: 0px;
+}
+.icon_box {
+  margin-top: 20px;
+}
+.left_child_icon {
+  display: flex;
+  gap: 20px;
+}
+.contrainer_right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   gap: 30px;
+  /* justify-content: space-between; */
+}
+.contrainer_right_parent {
+  display: flex;
+  gap: 30px;
+  padding-top: 40px;
+}
+.right_childA {
+  width: 200px;
+  background-color: white;
+  display: flex;
+  padding: 0px 60px 0px 60px;
+  border-radius: 15px;
+}
+/* @media screen and (min-width: 768px){
+  .right_childA{
+    display: none;
+} */
+.content_tittle {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 20px;
+  justify-content: center;
+  padding: 0px 20px 0px 0px;
+  gap: 20px;
+}
+.tittle_name {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.content_subtittle {
+  display: flex;
+  margin: 0px;
+  font-size: 30px;
+}
+.nubmer1 {
+  margin: 0px;
+}
+.nubmer2 {
+  margin: 0px;
+  lighting-color: aliceblue;
+}
+.btn_content {
+  padding: 30px;
+}
+.withdraw {
+  padding: 10px;
+  width: 90px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgb(0, 0, 255);
+  color: white;
+  font-weight: bold;
+}
+.right_childB {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  width: 200px;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 0px 60px 0px 60px;
+}
+/* @media screen and (max-width: 768px) {
+  .right_childB{
+    display: none;
+  }
+} */
+.content_tittleA {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  /* padding:0px 0px 0px 20px ; */
+}
+.tittle_name1 {
+  /* font-weight: bold; */
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.content_subtittle1 {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px 0px px 0px;
+}
+.tittle_name1 {
+  margin: 10px 0px 0px 0px ;
+}
+.nubmerA {
+  margin: 0px;
+}
+.nubmerB {
+  margin: 0px;
+}
+.content_tittle1 {
+  padding: 30px 20px 30px 80px;
+}
+.arrow_btn {
+  background-color: rgb(68, 65, 65);
+  border: none;
+  border-radius: 10px;
+  width: 35px;
+  height: 30px;
+}
+.contrainer_right_bottom {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 600px;
+
+}
+.inline_right_top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px 5px;
+  padding: 10px;
+  
+}
+.content_namesA {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+.leftside_nav{
+  margin: 0px;
+}
+.content_namesB{
+  font-weight: bold;
+  font-size: 15px;
+}
+.container_bottom_tittle{
+display: flex;
+flex-direction: column;
+}
+.parent_bottom_tittle{
+  padding: 20px 0px 0px 0px ;
+  display: flex;
+  justify-content: space-between;
+}
+.main_box{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.custamer_code{
+  display: flex;
+  margin: 0px;
+  gap: 200px;
+  padding : 10px 0px;
+  justify-content: space-between;
+  color: rgb(143, 125, 125);
+}
+.custamer_code:hover{
+  background-color: rgba(223, 221, 221, 0.781);
+}
+.name_code{
+  display: flex;
+  gap: 70px;
+}
+.custamer_code_name{
+  margin: 0px;
+}
+.client_custamer{
+  margin: 0px;
+}
+.custamer_right_names{
+  display: flex;
+  gap: 100px;
+}
+.code_custamer{
+  color: black;
+}
+.parent_btn{
+  /* padding: 2px; */
+}
+.btn1{
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 50px;
+}
+.btn2{
+  background-color: rgb(72, 238, 72);
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 50px;
+}
+.btn3{
+  background-color: tomato;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 50px;
+}

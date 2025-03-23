@@ -1,0 +1,421 @@
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .framecard {
+    border: 1px solid black;
+  }
+  .cardtop {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+  .cardimage {
+    /* width: 150px; */
+  }
+  .cardbottom {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+  }
+  .box {
+    align-self: center;
+    flex-grow: 2;
+  }
+  .shoetittle {
+    font-size: larger;
+    margin: 0;
+  }
+  .order {
+    padding: 10px;
+    border-radius: 10px;
+    width: 30x;
+    border: none;
+  }
+
+  .payment_details {
+    /* display: flex; */
+  }
+  .maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 100px;cla */
+  }
+
+  .containerA {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 300px;
+  }
+  .payment {
+    font-size: 30px;
+    padding: 0px;
+    margin-block: 15px;
+  }
+  .fullname {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .input_name {
+    /* margin: 10px; */
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .card {
+    font-size: 30px;
+    margin-block: 15px;
+  }
+  .card_name {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .cardnumber {
+    display: flex;
+    gap: 10px;
+  }
+  .MM_YY {
+    padding: 8px;
+    margin-top: 3px;
+    border-radius: 10px 10px 10px 10px;
+    width: 70px;
+  }
+  .cvv {
+    padding: 8px;
+    margin-top: 3px;
+    border-radius: 10px 10px 10px 10px;
+    width: 70px;
+  }
+  .add {
+    display: flex;
+    gap: 20px;
+  }
+  .input_add {
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 25px;
+    height: 20px;
+  }
+  .lorem {
+    width: 300px;
+  }
+  .cancel_btn {
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    /* background-color: tomato; */
+    /* color: aliceblue; */
+    font-weight: 700;
+  }
+
+  .containerB {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .right {
+    display: flex;
+    width: 30px;
+    gap: 20px;
+    margin-top: 45px;
+  }
+  .single {
+    font-size: 30px;
+    padding: 0px;
+    margin-block: 15px;
+  }
+  .change_plan {
+    width: 100px;
+    height: 10px;
+    margin-top: 26px;
+    /* padding-inline: 10px; */
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .access {
+    display: flex;
+  }
+  /* .hrastnal{
+    margin-inline: 0px;
+    padding: 0px;
+  } */
+  .paid {
+    background-color: silver;
+    border-radius: 10%;
+    padding: 20px;
+    /* width: 400px; */
+  }
+  .paid_monthly {
+    width: 200px;
+    flex-wrap: wrap;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: silver;
+    /* margin: 20px 0px 0px 50px;  */
+  }
+  .unlimited {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modlify {
+    display: flex;
+    width: 200px;
+  }
+  .updates {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+  .updates_details {
+    width: 225px;
+    font-size: 20px;
+  }
+  .amount {
+    display: flex;
+    justify-content: space-between;
+  }
+  .due_today {
+    font-size: 30px;
+  }
+  .tax {
+    padding-top: 0px;
+    margin-left: 30px;
+  }
+  .rub {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .applicable {
+    /* font-size: 10px; */
+    margin-block: 0px;
+  }
+  .maincontainerA {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container_left {
+    padding: 20px;
+  }
+  .payment_name {
+    font-size: 30px;
+    padding: 0px;
+    margin-block: 20px;
+  }
+  .namefelid {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+
+  .nameholder {
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+  }
+  .payment_name1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    font-size: 30px;
+  }
+  .card_details {
+    /* width: 300px; */
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(224, 224, 224);
+    font-weight: bold;
+  }
+  .framecard {
+    display: flex;
+    border: none;
+    /* margin-left: 10px; */
+    padding: 10px;
+    gap: 60px;
+  }
+  .card_monthly {
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border-color: rgb(235, 235, 235); */
+    border: 2px solid rgb(224, 224, 224);
+  }
+  .frame_card {
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border-color: rgb(235, 235, 235); */
+    border: 2px solid rgb(224, 224, 224);
+  }
+  .id_name {
+    display: flex;
+    padding-left: 10px;
+    gap: 20px;
+  }
+  .add_id {
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    height: 4%;
+  }
+  .add_id_side_tittle {
+    font: 1em sans-serif;
+    margin-top: 20px;
+  }
+  .loremA {
+    width: 400px;
+  }
+  .under_line {
+    /* margin-right: 20px; */
+  }
+  .central_line {
+    height: 450px;
+    margin: 0px 0px 0px 0px;
+  }
+  .under_line {
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .cut_page {
+    padding: 10px;
+    width: 80px;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+  }
+  .container_right {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .inline_top_frame {
+    display: flex;
+    gap: 20px;
+  }
+  .inline_top_frame1{
+    /* margin: 0px 0px 0px 0px;
+    */
+    margin-block: 0px;
+  }
+  .plan_change {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    height: 20px;
+
+  }
+  .inline_tittle_frame {
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    /* height: 20px; */
+  }
+  .inline_sub1_frame{
+    margin: 2px;
+  }
+  .inline_sub2_frame{
+    margin: 2px;
+  }
+  .inline_sub3_frame{
+    margin: 2px;
+  }
+  .inline_sub_tittle1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 238);
+    border-radius: 10px;
+  }
+  .left_frame {
+    padding: 20px;
+  }
+  .inline_left_frame {
+    width: 250px;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+  }
+  .left_line1 {
+    display: flex;
+    margin-top: 0px;
+    gap: 40px;
+    padding-left: 20px;
+  }
+  .sub_name {
+    font-weight: lighter;
+    margin: 0px;
+  }
+  /* .contoral {
+    font-weight: lighter;
+    border: 2px solid rgb(224, 224, 224);
+    color: rgb(235, 235, 235);
+  } */
+  .contorl2 {
+    gap: 70px;
+  }
+  .left_line2 {
+    display: flex;
+    width: 300px;
+    padding-left: 10px;
+  }
+  .sub_left_line1 {
+    margin: 0px;
+  }
+  .sub_left_line2 {
+    margin: 8px;
+  }
+  .movement1{
+    border: 1px dotted rgb(168, 168, 168);
+    width: 99%;
+    margin: 0px 0px 0px 0px ;
+  }
+  .left_line3 {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    margin: 0px;
+  }
+  .content {
+    width: 200px;
+    padding-left: 20px;
+    margin:0px 0px 0px 0px ;
+  }
+  .sub_content{
+    margin: 0px;
+  }
+  .bottom_left_tittle{
+    display: flex;
+    gap: 60px;
+  }
+
+  .bottom_left_tittle1{
+    margin-left:80px ;
+  }
+  .bottom_left_subtittle3{
+    margin: 0px;
+  }
+  .subscribe{
+  width: 20 px;
+  /* height: 50px; */
+  margin: 60px 0px 0px 225px ;
+    padding: 10px;
+    font-weight: bold;
+    border: 0px;
+    color: aliceblue;
+  background-color: tomato ;
+  border-radius: 10px;
+  }

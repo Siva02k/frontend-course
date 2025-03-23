@@ -1,0 +1,157 @@
+.notes{
+    font-size: 30px;
+    font-weight: 300;
+    color:violet;
+
+}
+.reaction{
+    font-style: italic;
+    color: blueviolet;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 70px;
+}
+.box34{
+    background-color: aquamarine;
+    width: 550px;
+    height: 100px;
+    border: 3px solid navy;
+    /* padding: 20px; */
+    padding: 20px;
+    /* padding-left: 20px; */
+    /* padding-top: 20px; */
+    /* padding-right: 20px; */
+    /* padding-buttom: 20px; */
+}
+.box33{
+    border: 1px solid;
+    background-color: bisque;
+    width: 20px;
+    height: 10px;
+    text-transform:uppercase;  
+}
+.box23{
+    background-color: cadetblue;
+    width: 600px;
+    height: 200px;
+    padding-top: 2px;
+}
+.box24{
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box25{
+   background-color:#000;
+    width: 200px;
+    height: 20px;
+    margin-left: 20px;
+   margin-top: 10px;
+
+}
+.box26{
+    background-color: red;
+    width: 400px;
+    height: 50px;
+    margin-top:10px;
+    margin-left: 20px;
+}
+/* .all{
+  
+} */
+.class21{
+    background-color: blueviolet;
+    height: 450px;
+    width: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.class22{
+    background-color: bisque;
+    height: 400px;
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+   
+}
+.class23{
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+    /* padding-bottom: 30px; */
+    margin-bottom: 20px;
+}
+.class24{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 30px; */
+    margin-bottom: 20px;
+   
+}
+.class25{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 20px;
+ 
+}
+.class81{
+    background-color: aquamarine;
+    height: 750px;
+    width: 700px;
+    padding: 20px;
+}
+.class82{
+    background-color: blanchedalmond;
+    height: 645px;
+    width: 300px;
+    padding: 50px;
+}
+.class83{
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    margin: 20px 20px 50px 20px;
+    /* margin-bottom: 50px; */
+}
+.class84{
+    background-color: tomato;
+    height: 40px;
+    width: 250px;
+     margin: 20px 20px 50px 20px;;
+}
+.class85{
+    background-color: orange;
+    height: 40px;
+    width: 250px;
+     margin: 20px 20px 50px 20px;;
+}
+.class86{
+    background-color: blue;
+    height: 40px;
+    width: 250px;
+      margin: 20px 20px 50px 20px;;
+}
+.class87{
+    background-color: blueviolet;
+    height: 40px;
+    width: 250px;
+      margin: 20px 20px 50px 20px;;
+}
+.class88{
+    background-color: gray;
+    height: 40px;
+    width: 250px;
+     margin: 20px 20px 50px 20px;;
+}
+
+
+

@@ -1,0 +1,145 @@
+.frame{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.card1{
+      background-color: whitesmoke;
+      border-radius: 20px;
+}
+.proflie{
+    height: 120px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.name{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0px;
+}
+.sub{
+    /* font-size: x-large; */
+    font-weight: 200;
+}
+.iconcontriner{
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    width: 20px;
+}
+
+
+
+
+
+
+
+/* dream cake */
+
+.template{
+    /* width: auto; */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 200px;
+    background-color: aqua;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+     
+}
+.cakeimage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.menu{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.buttercake{
+    text-align: center;
+}
+.btn{
+    width: 80px;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+
+
+
+/* project */
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.framecard{
+    /* display: flex; */
+    /* flex-direction: column; */
+    border-radius:10px;
+    max-width: 300px;
+    border: 1px solid black;
+    
+}
+.cardtop{
+    display: flex;
+    flex-direction: column;
+    /* border-top-left-radius: 10px; */
+}
+.cardimage{
+    width: 100%;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+    
+
+}
+.cardbottom{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+     width: 200px;
+     padding: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+
+}
+.tittle{
+    font-size: larger;
+    font-style: oblique;
+    padding: 0px;
+    margin: 0px;
+}
+.btnbottom{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px;
+    /* margin: 0px 0px 20px 50px; */
+    
+}
+

@@ -1,0 +1,14 @@
+.parentNode{
+    display: flex;
+    background-color: aliceblue;
+    height: 400px;
+    flex-direction: column;
+    gap: 10pxzzz;
+}
+.childNode{
+    background-color: red;
+    /* flex-shrink: 1; */
+    flex-grow: 1;
+    height: 100px;
+    align-self: stretch;
+}
